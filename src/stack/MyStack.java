@@ -10,7 +10,7 @@ public class MyStack {
         size=0;
     }
     public void push(int element){
-        if(isFull()){
+        if(!isFull()){
             data[top]=element;
             top++;
             size++;
@@ -29,7 +29,7 @@ public class MyStack {
     }
     public int pop(){
         int res=0;
-        if (isEmpty()){
+        if (!isEmpty()){
             top--;
             size--;
             res=data[top];
@@ -48,7 +48,7 @@ public class MyStack {
     }
     public int peek(){
         int res=0;
-        if(isEmpty()){
+        if(!isEmpty()){
             res=data[top-1];
         }
         else {
