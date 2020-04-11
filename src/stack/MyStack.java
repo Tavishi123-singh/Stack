@@ -1,6 +1,6 @@
 package stack;
 
-public class Mystack {
+public class MyStack {
     private int[] data;
     private int top;
     private int size;
