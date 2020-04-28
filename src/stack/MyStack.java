@@ -1,3 +1,7 @@
+/*
+ * Created by Intellij IDEA
+ * User: Tavishi123-singh
+ */
 package stack;
 
 public class MyStack {
